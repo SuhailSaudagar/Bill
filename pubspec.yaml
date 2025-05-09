@@ -1,0 +1,16 @@
+name: cloth_billing_app
+description: A cloth shop billing app.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  pdf: ^3.10.1
+  printing: ^5.12.0
+
+flutter:
+  uses-material-design: true
